@@ -20,8 +20,6 @@ div.container {
         color: white;
         > div.header {
             height: 1em;
-            > app-header {
-            }
         }
         > div.body {
             height: calc(100vh - 4em);
