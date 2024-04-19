@@ -1,5 +1,5 @@
 div.container {
-    background-image: url(/assets/imgs/bg.jpg);
+    background-image: url(/assets/imgs/bg-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,9 +34,9 @@ div.container {
                 flex: 1;
                 > span.name {
                     background-color: rgba(255, 255, 255, 0.15);
-                    border: 2px solid;
+                    border: 2px solid #2bb57261;
                     font-size: 17px;
-                    padding: 0.7em;
+                    padding: 0.7em 1em;
                     border-radius: 30px;
                 }
             }
