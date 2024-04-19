@@ -64,6 +64,9 @@ header {
             justify-content: center;
             gap: 2em;
             padding: 1em;
+            &.burger-show {
+                right: 0;
+            }
         }
         > li {
             position: relative;
