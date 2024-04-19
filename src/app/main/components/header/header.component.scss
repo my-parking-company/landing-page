@@ -18,6 +18,24 @@ header {
         display: flex;
         justify-content: space-evenly;
         gap: 1em;
+        > li {
+            position: relative;
+            > a::after {
+                content: "";
+                position: absolute;
+                border-bottom: 2px solid;
+                width: 0;
+                bottom: 0;
+                left: 0;
+                transition: width 0.5s;
+            }
+            &:hover {
+                > a::after {
+                    width: 100%;
+                }
+            }
+        }
+
         > li:nth-of-type(1) {
             > a {
             }
