@@ -1,0 +1,30 @@
+$green-color: #11c06cfb;
+
+footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    @media (max-width:590px) {
+        flex-direction: column;
+    }
+    > div.socials {
+        >ul {
+            display: flex;
+            gap: 2em;
+            list-style: none;
+            > li {
+                > a {
+                    font-size: 1.5em;
+                    background-color: $green-color;
+                    padding: 0.5em;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    > div.copy {
+    }
+}
