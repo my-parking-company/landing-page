@@ -30,15 +30,24 @@ div.container {
             align-items: center;
             > div.quote {
                 flex: 1;
+                display: grid;
+                // padding-top: 10em;
+                // height: 100%;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 300px;
+                gap: 1.2em;
                 >p {
                     font-size: 20px;
+                }
+                > img {
+                    border-radius: 50%;
+                    width: 300px;
+                    object-fit: contain;
+                    box-shadow: 0 0 10px 0 rgba(255,255,255,1);
                 }
             }
             > div.img-slider {
                 flex: 1;
-                > img {
-                    border-radius: 50%;
-                }
             }
         }
     }
