@@ -59,11 +59,14 @@ header {
             right: -100%;
             top: 0;
             bottom: 0;
-            background-color: $green-color;
+            background-color: #49ac7c;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
+            width: 200px;
             gap: 2em;
             padding: 1em;
+            box-shadow: -5px 0px 10px 0 #ffffff54;
             &.burger-show {
                 right: 0;
             }
