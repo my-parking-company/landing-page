@@ -30,16 +30,15 @@ div.container {
             align-items: center;
             > div.quote {
                 flex: 1;
-                > span.name {
-                    background-color: rgba(255, 255, 255, 0.15);
-                    border: 2px solid #2bb57261;
-                    font-size: 17px;
-                    padding: 0.7em 1em;
-                    border-radius: 30px;
+                >p {
+                    font-size: 20px;
                 }
             }
             > div.img-slider {
                 flex: 1;
+                > img {
+                    border-radius: 50%;
+                }
             }
         }
     }
