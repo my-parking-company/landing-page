@@ -1,4 +1,4 @@
-$green-color: #2bb57261;
+$green-color: #11c06cfb;
 $white-color: white;
 $breaking-width: 913px;
 
@@ -17,6 +17,7 @@ header {
         border: 2px solid $white-color;
         padding: 0.7em 1em;
         border-radius: 30px;
+        color: $white-color;
         @media (max-width:713px) {
             font-size: 18px;
         }
