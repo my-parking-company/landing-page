@@ -4,12 +4,14 @@ import { CommonModule } from '@angular/common';
 import { MainRoutingModule } from './main-routing.module';
 import { MyMatModule } from '../my-mat/my-mat.module';
 import { HeaderComponent, HomeComponent } from './components';
+import { HomeCardComponent } from './components/home-card/home-card.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeCardComponent
   ],
   imports: [
     CommonModule,

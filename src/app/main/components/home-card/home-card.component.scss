@@ -1,0 +1,25 @@
+$green-color: #11c06cfb;
+$white-color: #ffffff;
+
+div.my-card {
+    width: 300px;
+    box-shadow:
+        0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    > div.my-card-title {
+        background-color: $green-color;
+        color: $white-color;
+        font-size: 1.2em;
+        font-weight: 500;
+        padding: 1em;
+    }
+    > div.my-card.body {
+        padding: 20px 1em;
+        > div.my-card-footer {
+            margin-top: 10px;
+            text-align: right;
+        }
+    }
+}
